@@ -1,0 +1,109 @@
+/*
+	Name:	林文锋
+	Number:	17326032
+	Date:	2019/11/14
+*/
+body
+{
+	/*border-style: solid;*/
+	text-align: center;
+	font-size: 24px;
+	background-image: url("11.jpg");
+	background-size: 100%;
+	/*opacity: 0.8;*/
+}
+
+h1
+{
+	color: purple;
+}
+
+#container
+{
+	height: 500px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: white;
+	opacity: 1;
+}
+
+#game-button
+{
+	/*color: red;*/
+	font-size: 24px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+#Time
+{
+	float: right;
+	font-size: 24px;
+	margin-right: 80px;
+	margin-top: 20px;
+}
+
+#time-keeper
+{
+	font-size: 24px;
+	width: 100px;
+}
+
+#Hint
+{
+	float: left;
+	clear: left;
+	font-size: 24px;
+	width: 280px;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+#Score
+{
+	float: right;
+	font-size: 24px;
+
+}
+
+#score-keeper
+{
+	font-size: 24px;
+	width: 100px;
+	margin-right: 80px;
+	margin-top: 20px;
+}
+
+#moles_map
+{
+	clear: left;
+	height: 300px;
+	width: 720px;
+	border-top: solid;
+	border-bottom: solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	border-color: pink;
+}
+
+.mole
+{
+	height: 40px;
+	width: 60px;
+}
+
+h2
+{
+	text-align: left;
+	margin-left: 20%;
+}
+
+li
+{
+	text-align: left;
+	margin-left: 28%;
+}

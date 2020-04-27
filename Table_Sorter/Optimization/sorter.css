@@ -1,0 +1,58 @@
+/*
+    Name:   WenFeng Lin
+    Number: 17326032
+    Date:   2019-11-16
+*/
+body,html
+{
+	text-align: left;
+	font-size: 24px;
+	background-color: #FFB5C5;
+	background: url("background.jpg") no-repeat;
+	background-size: 100%; 
+}
+
+table
+{
+	border: 2px solid grey;
+	border-collapse:collapse;
+}
+
+
+table tr:nth-child(even) {
+    background: lightgray;
+}
+
+table th
+{
+	background-color: #00008B;
+	color: white;
+}
+
+th:hover
+{
+	cursor: pointer;
+}
+
+table th,td
+{
+	border: 1px solid grey;
+}
+
+table th[sort]
+{
+	background-color: #1E90FF;
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 5px 20px 5px 5px;
+}
+
+table th[sort='asc']
+{
+	background-image: url('ascend.png');
+}
+
+table th[sort='desc']
+{
+	background-image: url('descend.png');
+}

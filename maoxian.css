@@ -1,0 +1,35 @@
+div#maoxian
+{
+	background: #CCCCCC;
+	color: #CCCCCC;
+	text-shadow: -1px -1px 3px #666666,
+					1px 1px 5px #FFFFFF;
+	font-size: 48pt;
+	width: 300pt;
+	text-align: center;
+	transition: all 2s;
+	-moz-transition: all 2s;
+	-webkit-transition: all 2s;
+	-o-transition: all 2s;
+}
+
+div#maoxian:hover
+{
+	width: 1000pt;
+	background-color: red;
+}
+
+div#ma
+{
+	background: black;
+	color: #CCCCCC;
+	text-shadow: -1px -1px 3px #666666,
+					1px 1px 5px #FFFFFF;
+	font-size: 48pt;
+	width: 300pt;
+	text-align: center;
+	transition: all 2s;
+	-moz-transition: all 2s;
+	-webkit-transition: all 2s;
+	-o-transition: all 2s;	
+}

@@ -1,0 +1,46 @@
+<!-- 
+	Name:		林文锋 	LinWenFeng
+	Number: 	17326032
+	Date:		2019-11-14
+	Features:	
+			1.	I finshed two button named with "Golden Finger 1", which can simplify this game, and "Golden Finger 2", which can show you the original photo of this puzzle.
+			
+			2.	This game is set to show you how much time you've spent and how many steps you've taken.
+
+			3.	All tasks required in homework website is satisfied.
+ 	
+ 	LoC:		210 lines before, 188 lines after.
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Fifteen Puzzle</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js "></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="all-container">
+		<div id="time-keeper">Time : 
+			<input type="text" name="time" id="time-counter">
+		</div>
+		<div id="steps-keeper">Steps : 
+			<input type="text" name="steps" id="steps-counter">
+		</div>
+		<button id="start-game">开始游戏</button>
+		<button id="end-game">结束游戏</button>
+		<div id="Info"></div>
+		<div id="puzzle-container"></div>		
+		<button id="Golden-finger-1">Golden Finger 1</button>
+		<button id="Golden-finger-2">Golden Finger 2</button>
+		<div id="photo-container"></div>
+
+	</div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body {
+			font-size: 24px;
+			text-align: center;
+		}
+		div {
+			border:1px solid transparent;
+			width: 500px;
+			margin-top: 5%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		div#big {
+			border:1px solid grey;
+			width: 550px;
+			height: 350px;
+
+		}
+		input {
+			float: right;
+			margin-right: 10%;
+			font-size: 25px;
+		}
+		input#hand_in {
+			font-size: 25px;
+			float: left;
+			margin-left: 15%;
+		}
+		input#reset {
+			font-size: 25px;
+			float: right;
+			margin-right: 20%;
+		}
+	</style>
+</head>
+<body>
+	<h1>User SignUp Page</h1>
+	<div id="big">
+		<form action="http://localhost:8000/signUpPost" method="post">
+			<div>User Name<input type="text" name="username"></div>
+			<div>Number<input type="text" name="studentID"></div>
+			<div>Phone<input type="text" name="phone"></div>
+			<div>Email<input type="text" name="email"></div>
+			<div><input id="hand_in" type="submit" value="Hand in"><input id="reset" type="reset" value="Reset"></div>
+		</form>
+	</div>
+</body>
+</html>
+
+	

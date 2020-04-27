@@ -1,0 +1,86 @@
+/*	
+	Name:	林文锋
+	Number:	17326032
+	Date:	2019/10/17
+*/
+
+body
+{
+	width: 520px;
+	height: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-image: url("https://github.com/MuaJacky/Photo_repository/raw/master/Photo_comic/gd01.jpg");
+	background-color: #7D9EC0;
+	opacity: 0.6;
+}
+
+div#discription
+{
+	margin-top: 5%;
+	margin-left: 5% ;
+	font-size: 40px;
+	text-align: center;
+	color: #99ccff;
+	opacity: 1;
+}
+
+div#calculator-container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;	
+	/*border-style: solid;*/
+	padding: 20px;
+	overflow: hidden;
+	/*background-color: #030303;*/
+
+}
+
+input
+{
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	width: 90%;
+	height: 10%;
+	text-align: center;	
+	background-color: #5CACEE;
+	font-size: 40px;
+	border-radius: 10px;
+}
+
+button
+{
+	color: #66CD00;
+	width: 100px;
+	height: 95px;
+	margin: 2% 2.5% 2% 2.5%;
+	border-radius: 10%;
+	font-size: 40px;
+	transition: all 3s;
+}
+
+button#number,button#operator,button#dot,button#parentheses
+{
+	background-color:  #778899;
+}
+
+button#delete,button#clear
+{
+	background-color:  #D2691E;
+}
+
+button#equal
+{
+	background-color:  #DC143C;
+}
+
+button:hover
+{
+	background: linear-gradient(to bottom, #7171C6, white)
+}
