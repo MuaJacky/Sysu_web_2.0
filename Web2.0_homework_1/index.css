@@ -1,0 +1,56 @@
+/*
+head
+{
+	font-family : SimSon, Geogria, serif;
+	font-weight: bold;
+	font-size: 40pt;
+	color: blue;
+}
+*/
+/*
+
+	Information About me:
+		Name   : 林文锋
+		id : 17326032
+		Class  : 3
+
+	This is a style sheet of index.html which includes some 
+	properties of heading, paragraph and body.
+
+*/
+ 
+
+
+/* Properties of heading */
+h1,h2,h3,h4,h5,h6
+{
+	font-family : SimSon, Geogria, serif;
+	font-weight: bold;
+	font-size: 30pt;
+	color: #FF8800;
+	text-align: center;
+	
+}
+
+
+h2,h3,h4,h5,h6
+{
+	text-decoration: underline;
+	text-align: justify;	
+}
+
+
+/* Properties of paragraph */
+p
+{
+	font-size: 20pt;
+	color: blue;
+	text-align: justify;
+}
+
+/* Properties of body */
+body
+{
+	background-image: url("Images/silverware.jpg");
+}
+

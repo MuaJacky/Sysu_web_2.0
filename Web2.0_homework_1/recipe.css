@@ -1,0 +1,87 @@
+/*
+
+	Information About me:
+		Name   : 林文锋
+		id : 17326032
+		Class  : 3
+
+	This is a style sheet of pie.html which includes properties of :
+		-	headings
+		-	links
+		-	lists
+		-	body
+		-	id
+
+*/
+
+
+/* Properties of heading */
+h1,h2,h3,h4,h5,h6
+{
+	letter-spacing: 0.2em;	
+
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+	font-size: 18pt;
+
+	text-align: left;
+	text-decoration:underline;
+
+	color: rgb(164, 164, 0);
+	background-color: rgb(240, 240, 240);
+	
+}
+
+
+h1
+{
+	text-align: center;
+
+	font-size : 20pt;
+	font-weight: bold;
+}
+
+/* Properties of links */
+a
+{
+	color: rgb(164, 164, 0);
+}
+ 
+
+/* Properties of lists */
+ul
+{
+	list-style-image: url("Images/pie_icon.gif");
+	list-style-position: inside;
+}
+
+ol
+{
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+
+/* Because 11pt is to small for italic words,so i change it to 15pt */
+/* Properties of body */
+body
+{
+	font-size: 15pt;
+	font-family: Geogria, Garamond, serif;
+
+	color: rgb(64, 64, 64);
+
+	background-image: url("Images/silverware.jpg");
+}
+
+/* set properties of id = "quotation" */
+#quotation 
+{
+	position: relative;
+	left: 30px;
+	width: 1200px;
+
+	font-style: italic;
+
+	text-align: justify;
+
+	background-color: rgb(255, 255, 200);
+} 

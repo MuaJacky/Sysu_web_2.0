@@ -1,0 +1,180 @@
+/*
+	Name 	: 林文锋
+	Number 	: 17326032
+	Fininshed on 2019/09/19
+ */
+
+/*
+	This page style sheet is properly placed in right_bottom corner
+	in 1980*1080 ratio in Mozilla FireFox
+*/
+
+div #up_heading
+{
+
+}
+
+
+body
+{
+	font-size: 8pt;
+	font-family: Verdana,Tahoma,sans-serif;
+	margin: 0pt;
+	padding: 0pt;
+	width: 900px;
+	background-image: url("http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/background.png");
+}
+
+h1
+{
+	text-align: center;
+	font-size: 24pt;
+	/*font-family: Verdana,Tahoma,sans-serif;*/
+}
+
+div#rating
+{
+	background-image: url("http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/rottenbackground.png");
+	height: 83px;
+	font-size: 48pt;
+	font-weight: bold;
+	color:red ;
+}
+
+div#rating span
+{
+	font-size: 8pt;
+	color: white;
+}
+
+div#rating img
+{
+	vertical-align: bottom;
+}
+
+div#central_section
+{
+	width: 800px;
+	position: absolute;
+	left: 3.7%;
+	border-style: solid;
+	border-width: 4px;
+	border-color: gray;
+}
+
+div#general_overview
+{
+	width: 250px;
+	float: right;
+	background-color: #A2B964;
+	font-size: 8pt;
+	font-family: Arial,sans-serif;
+}
+
+div#general_overview dl
+{
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+div#general_overview dt
+{
+	font-weight: bold;
+	padding-top: 1em;
+}
+
+div#general_overview dd
+{
+	margin-left: 40px;
+}
+
+div#left_central_section
+{
+	width: 550px;
+}
+
+div#comment_left
+{
+	width: 44%;
+	margin: 2%;
+	float: left;
+	clear: left;
+}
+
+div#comment_right
+{
+	width: 44%;
+	margin: 2%;
+	margin-left: 3%;
+	float: left;
+}
+
+p#comments
+{
+	width: 100%;
+	background-color: #E1D697;
+	border-style: solid;
+	border-width: 2px;
+	border-color: gray;
+	float :left;
+	clear: left;
+	font-weight: bold;
+	font-size: 8pt;
+	padding: 5px;
+}
+
+p#comments img
+{
+	float: left;
+}
+
+p#reviewers span
+{
+	font-style: italic;
+}
+
+p#reviewers img
+{
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div#left_central_section p img
+{
+	vertical-align: bottom;
+}
+
+p#bottom_text
+{
+	text-align: center;
+	background-color: #A2B964;
+	width: 100%;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: absolute;
+	bottom: 0%;
+}
+
+div#W3C
+{
+	position: fixed;
+	right: 49%;
+	bottom: 0%;
+}
+
+/*
+	if you want to see explicitly the same as the photo 
+	expected_output ,use the setting of div id = "W3C" below.
+*/
+
+/* version of the same as expected_output*/
+/*
+	div#W3C
+	{
+		position: fixed;
+		right: 0%;
+		bottom: 0%;
+	}
+*/
